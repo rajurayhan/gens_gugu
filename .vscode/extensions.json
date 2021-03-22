@@ -1,0 +1,11 @@
+{
+    "recommendations": [
+        "bmewburn.vscode-intelephense-client",
+        "felixfbecker.php-debug",
+        "ikappas.phpcs",
+        "persoderlind.vscode-phpcbf",
+        "gruntfuggly.todo-tree",
+        "octref.vetur",
+        "mikestead.dotenv",
+    ]
+}

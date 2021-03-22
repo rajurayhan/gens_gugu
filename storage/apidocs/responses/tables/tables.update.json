@@ -1,0 +1,12 @@
+{
+  "count": 1,
+  "tables": [
+    {
+      "id": 1,
+      "table_name": "e_hiiku_seiseki_updated",
+      "table_name_alias": "肥育成績",
+      "updated_by": null,
+      "updated_at": "2020-05-15 10:13:35"
+    }
+  ]
+}

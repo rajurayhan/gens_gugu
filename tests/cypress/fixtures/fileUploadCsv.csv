@@ -1,0 +1,13 @@
+﻿col_date,col_varchar,col_bigint,col_decimal,col_datetime,col_blank,col_comma,col_kaigyo,col_doublequotation
+2018/1/1,abc,123,12.3,2020/7/4 10:20,,"ab,cd","ab
+cd","ab""cd"
+2019/11/30,あいう,456,45.67,2020/7/4 10:20,,",abcd","
+abcd","""abcd"
+2020/12/3,123,789,890.123,10:20,,"abcd,","abcd
+","abcd"""
+2018/1/1,ｱｲｳ,123,12.3,2020/7/4 10:20,,"ab,cd","ab
+cd","ab""cd"
+2018/1/1,♂♀,123,12.3,2020/7/4 10:20,,"ab,cd","ab
+cd","ab""cd"
+2018/1/1,0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz01234567,123,12.3,2020/7/4 10:20,,"ab,cd","ab
+cd","ab""cd"

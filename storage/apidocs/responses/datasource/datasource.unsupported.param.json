@@ -1,0 +1,9 @@
+{
+    "error_code": 20,
+    "error_message": "未対応のパラメータが設定されました。",
+    "error_details_count": 2,
+    "error_details": [
+      "items per pageには、数字を指定してください。:このパラメータには対応していません。",
+      "sort byは配列でなくてはなりません。:このパラメータには対応していません。"
+    ]
+  }

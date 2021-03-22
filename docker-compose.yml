@@ -1,0 +1,33 @@
+version: "3"
+
+services:
+  php-apache:
+    build: ./.dockerconfig
+    container_name: "php-apache"
+    ports:
+      - "8080:80"
+    restart: always
+    volumes:
+      - .:/var/www/html
+    working_dir: /var/www/html
+    links:
+    - gens-mysql
+    depends_on:
+    - gens-mysql
+    command: bash -c "chmod -R 777 /var/www/html/storage && apache2-foreground"
+  gens-mysql:
+    image: mysql:8.0.20
+    container_name: "gens-mysql"
+    ports:
+      - 33306:3306
+    restart: always
+    volumes:
+      - ${LOCAL_MYSQL_DATA_PATH:-./.dockerconfig}/mysql-data:/var/lib/mysql
+      - ./.dockerconfig/mysql/my.cnf:/etc/mysql/conf.d/my.cnf
+      - ./.dockerconfig/mysql/init.d:/docker-entrypoint-initdb.d
+    environment:
+      MYSQL_DATABASE: gens4nobels
+      MYSQL_USER: gens4nobelsuser
+      MYSQL_PASSWORD: gens4nobelspass
+      MYSQL_ROOT_PASSWORD: gens4nobelspass
+      TZ: Asia/Tokyo

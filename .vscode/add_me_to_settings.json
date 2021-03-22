@@ -1,0 +1,39 @@
+{
+    "extensions.showRecommendationsOnlyOnDemand": false,
+    "phpcs.standard": ".vscode/phpcs.xml",
+    "phpcbf.onsave": true,
+    "phpcbf.standard": "PSR2",
+    "[php]": {
+        "editor.defaultFormatter": "persoderlind.vscode-phpcbf"
+    },
+    "todo-tree.general.tags":  [
+        "TODO",
+        "FIXME",
+        "DEBUG",
+        "XXX"
+    ],
+    "todo-tree.highlights.customHighlight": {
+        "TODO": {
+            "foreground": "white",
+            "background": "#ffa500",
+            "iconColour": "green"
+        },
+        "FIXME": {
+            "foreground": "white",
+            "background": "#ff69b4",
+            "iconColour": "yellow"
+        },
+        "DEBUG": {
+            "foreground": "white",
+            "background": "#a52a2a",
+            "icon": "bug",
+            "iconColour": "green"
+        },
+        "XXX": {
+            "foreground": "white",
+            "background": "#ff6347",
+            "icon": "eye-closed",
+            "iconColour": "red"
+        }
+    },
+}

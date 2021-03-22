@@ -1,0 +1,2 @@
+ファイルアップロードにおいて、.xls/.xlsx以外の拡張子のファイルがアップロードされた時の挙動を確認する時に使います。
+e.g.) APIUploadDefinitionBulkControllerTestForNew.test_FileExtensionIsNotExcel

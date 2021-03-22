@@ -1,0 +1,12 @@
+{
+  "AWSEBDockerrunVersion": 1,
+  "Image": {
+    "Name": "AWS_ACCOUNT_ID.dkr.ecr.ap-northeast-1.amazonaws.com/ushibook/gens-web:TAG"
+  },
+  "Ports": [
+    {
+      "ContainerPort": 80
+    }
+  ],
+  "Logging": "/var/www/html/storage/logs"
+}

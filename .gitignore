@@ -1,0 +1,33 @@
+/public/js/
+/public/fonts/vendor/dropify/
+/public/mix-manifest.json
+/public/apidocs
+/resources/docs
+/docs
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+.env
+.env.backup
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+
+# images
+/public/images/gens_logo.png
+/public/images/gens_logo_light.png
+
+# laravel-mix
+/public/mix-manifest.json
+/public/js/app.js
+/public/css/app.css
+
+# vscode
+.vscode/*
+!.vscode/extensions.json
+!.vscode/phpcs.xml
+!.vscode/add_me_to_settings.json

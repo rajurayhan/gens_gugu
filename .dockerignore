@@ -1,0 +1,13 @@
+.git
+.ebextensions
+tests/
+reports/
+.gitattributes
+.gitignore
+Dockerfile
+Dockerrun.aws.json
+*.zip
+.env
+.dockerconfig/mysql
+.dockerconfig/mysql-data
+.dockerconfig/Dockerfile

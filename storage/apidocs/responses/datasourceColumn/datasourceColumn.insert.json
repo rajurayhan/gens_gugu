@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "table_column_id": 1,
+    "datasource_id": 1,
+    "datasource_column_number": 1,
+    "datasource_column_name": null,
+    "created_by": null,
+    "created_at": "2020-05-01 00:34:55",
+    "updated_by": null,
+    "updated_at": "2020-05-01 00:34:55",
+    "DataSourceName": "肥育成績",
+    "DataSourceTableName": "e_hiiku_seiseki",
+    "ColumnName": "no",
+    "data_source": {
+      "id": 1,
+      "datasource_name": "肥育成績",
+      "table_id": 1,
+      "starting_row_number": null,
+      "created_by": null,
+      "created_at": "2020-05-01 00:34:52",
+      "updated_by": null,
+      "updated_at": "2020-05-14 20:04:25",
+      "tables": {
+        "id": 1,
+        "table_name": "e_hiiku_seiseki",
+        "table_name_alias": "肥育成績",
+        "created_by": null,
+        "created_at": "2020-05-15 10:13:35",
+        "updated_by": null,
+        "updated_at": "2020-05-15 10:13:35"
+      }
+    }
+  }
+]
